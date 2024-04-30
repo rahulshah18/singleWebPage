@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Mar, 2024, 11:40:01 AM
+    Author     : developer
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.nav{
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;  
+    font-size: 15px;
+   /*padding-bottom: 10px;*/
+    /*border-bottom: 1px solid #dadada;*/
+}
+.part1{
+    /*background-color: aqua;*/
+    padding: 4px 30px;
+    font-weight: 600;
+}
+.part2{
+    display: flex;
+    font-weight: 600;
+    padding: 4px 20px;
+    /*background-color: yellowgreen;*/
+}
+.part2 h3{
+    padding: 4px 20px;
+}
+.part3{
+    display: flex;
+    /*background-color: violet;*/
+    right: 10px;
+    padding: 4px 20px;
+    font-weight: 700;
+     align-items: center;
+    justify-content: flex-end;
+}
+.part3 h3{
+    padding: 4px 20px;
+}
+
+.text{
+    position: absolute;
+    /*background-color: red;*/
+    font-family: monospace;
+    top: 120px;
+    font-size: 60px;
+    left: 24%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+   
+}
+.text h1{
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    justify-content: space-around;
+    gap: 15px;
+}
+.text h2{
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    justify-content: space-around;
+    font-size: 95PX;
+}
+.text span{
+    background-color: brown;
+    /*display: flex;*/
+    /*width:250px;*/
+    font-size: 15px;
+    /*justify-content: center;*/
+    align-items: center;
+    border: 1px solid brown;
+    border-radius: 50px;;
+    padding: 10px 20px;
+        
+}
+
+.img1 img{
+    width: 180px;
+    height: 230px;
+    position: absolute;
+    top:80px;
+    left: 60px;
+    border-radius: 10px;
+}
+.img2 img{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    bottom: 80px;
+    right: 120px;
+    border-radius: 10px;
+     opacity: 0.5
+}
+.img3 img{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    bottom: 60px;
+    left: 220px;
+    border-radius: 10px;
+    opacity: 0.5
+}
+
+.icons{
+    position: absolute;
+    bottom: 15px;
+    left: 50px;
+    font-size: 25px;
+}
+
+i{
+    margin-left: 15px;
+}
+
+.part2 h3:nth-last-child(1){
+    color: #c03333;
+    font-weight: 900;
+}
